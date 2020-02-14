@@ -1,0 +1,26 @@
+.uk-button {
+  border-radius: 100px;
+}
+
+.uk-button-secondary {
+  background-color: #01a8ec;
+}
+
+
+.card-theme {
+  .uk-button.uk-button-default {
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    left: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    @media (max-width: 767.98px) {
+      position: relative;
+      bottom: auto;
+
+    }
+  }
+}
+

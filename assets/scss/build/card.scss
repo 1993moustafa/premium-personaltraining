@@ -1,0 +1,79 @@
+.uk-card {
+  .uk-button-default {
+    color: #009cdb;
+    border: 1px solid #009cdb;
+  }
+}
+
+.uk-overlay-default {
+  background: rgba(0, 156, 219, 0.7);
+  color: #ffffff;
+  padding: .5rem;
+}
+
+.video-card {
+  span {
+    right: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -50px;
+    color: #ffffff;
+  }
+}
+
+.card-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+
+  @media (max-width: 767.98px) {
+    width: 280px;
+    height: 280px;
+  }
+
+}
+
+
+.section-aboutme {
+  .profile-img {
+    margin-top: -68px;
+
+    @media (max-width: 767.98px) {
+      margin-top: -48px;
+    }
+  }
+
+  .card-img {
+    &::after{
+      content: '';
+      background-image: url('assets/images/shape.svg');
+      position: relative;
+      display: block;
+      right: 0;
+      z-index: -1;
+      margin-top: -460px;
+      margin-left: -71px;
+      width: 500px;
+      height: 500px;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      @media (max-width: 767.98px) {
+        width: 340px;
+        left: 0;
+        right: 0;
+        margin: -313px auto;
+        margin-left: -26px;
+      }
+    }
+  }
+
+  .icon {
+    width: 35px;
+  }
+}
+
+.icon {
+  width: 35px;
+}

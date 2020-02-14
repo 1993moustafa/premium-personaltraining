@@ -1,0 +1,109 @@
+.wprs_unslider {
+  width: 600px;
+  left: 50%;
+  right: 50%;
+  margin: auto;
+
+  @media (max-width: 991.98px) {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+.wprs_unslider-arrow {
+  background-color: #009cdb;
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  bottom: auto;
+  margin: auto;
+
+  @media (max-width: 991.98px) {
+    left: 0;
+    right: 15px;
+  }
+}
+
+
+.wprs_unslider-arrow.prev {
+  @media (max-width: 991.98px) {
+    left: 15px;
+  }
+}
+
+
+#wprev-slider-1 .wprev_preview_bg1_T1::after {
+  display: none;
+}
+
+.wprevpro_t1_P_3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-style: unset;
+  color: #333333;
+  line-height: unset;
+}
+
+.wprevpro_t1_DIV_2 {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: none;
+  padding: 2rem;
+
+
+}
+
+.wprevpro_t1_DIV_2.wprev_preview_bg1_T1.wprev_preview_bradius_T1 {
+  &::before {
+    content: '';
+    background-image: url('assets/images/google.svg');
+
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    top: 40px;
+    position: absolute;
+    margin-right: 0;
+    left: 60px;
+  }
+}
+
+
+.wprevpro_star_imgs_T1 {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.wprevpro_t1_SPAN_5 {
+  width: 100%;
+  text-align: center;
+
+}
+.wprevpro_t1_A_8 {
+  display: flex;
+  justify-content: center;
+}
+
+nav.wprs_unslider-nav {
+  display: none !important;
+}
+
+.w3_wprs-row-padding, .w3_wprs-row-padding>.w3_wprs-col, .w3_wprs-row-padding>.w3_wprs-half, .w3_wprs-row-padding>.w3_wprs-quarter, .w3_wprs-row-padding>.w3_wprs-third, .w3_wprs-row-padding>.w3_wprs-threequarter, .w3_wprs-row-padding>.w3_wprs-twothird {
+  padding: 0 20px;
+}
+
+
+span.wprevpro_t1_SPAN_5.wprev_preview_tcolor2_T1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+
+span.wprev_showdate_T1 {
+  font-size: 14px;
+  font-weight: 400;
+}
